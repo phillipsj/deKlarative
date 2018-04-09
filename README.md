@@ -17,3 +17,12 @@ Other frameworks, do a really good job of just wiring up the default cases. Spri
 Another goal is to make this library composible. Composition rules and I think to make something decalritive it needs the abilities for users to compose components together to *declare* what they would like to happen. Funny enough, I feel if you are striving to make something declaritive, it has to be composible. Along with that composibility, having an orthogonal architecture is desired. 
 
 If I get composibility correct and base my constructs based on functions rather than objects, I should be able to create a very orthogonal architecture that will allow you to override functionality that you want with your own functions. Since I plan to use Kotlins it maybe as simple as creating your own extension methods.
+
+## Libraries and Frameworks
+
+Currently I plan to use the following projects
+
+* [Kotlinx.HTML](https://github.com/Kotlin/kotlinx.html)
+* [Exposed](https://github.com/JetBrains/Exposed)
+* [Ktor](https://ktor.io/)
+* [Arrow](http://arrow-kt.io/)
