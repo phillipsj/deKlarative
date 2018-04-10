@@ -26,3 +26,28 @@ Currently I plan to use the following projects
 * [Exposed](https://github.com/JetBrains/Exposed)
 * [Ktor](https://ktor.io/)
 * [Arrow](http://arrow-kt.io/)
+
+## Possible Syntax examples
+
+While I am thinking through this before I start trying to develop some examples, here is what I am thinking.
+
+```
+interface ApiEndpoint {
+	fun get()
+	fun post()
+	fun delete()
+	fun put()
+	// etc.
+}
+
+fun main(args: Array<String>) {
+    embeddedServer(Netty, 8080) {
+        endpoint {
+              +"Description of service"
+              url("/orders")
+              apiData(orders)
+            }
+        }
+    }.start(wait = true)
+}
+```
