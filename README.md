@@ -31,7 +31,7 @@ Currently I plan to use the following projects
 
 While I am thinking through this before I start trying to develop some examples, here is what I am thinking.
 
-```
+```kotlin
 interface ApiEndpoint {
 	fun get()
 	fun post()
